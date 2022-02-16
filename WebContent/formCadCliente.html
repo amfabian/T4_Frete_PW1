@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit=no">
+	<title>Cadastrar Cliente</title>
+	<link rel="stylesheet" type="text/css" href="bibliotecas/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bibliotecas/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/sb-admin.min.css">
+</head>
+<body class="bg-dark">
+	<div class="container">
+		<div class="card card-register mx-auto mt-5">
+			<div class="card-header">Cadastrar Cliente</div>
+			<div class="card-body">
+				<form method ="POST" action="direcionaCadCliente.jsp">
+					<div class="form-group">
+						<label for="nomeCliente">Nome:</label>
+						<input type="text" class="form-control" id="nome" name="nome"
+						placeholder="Digite seu Nome:">
+					</div>
+					<div class="form-group">
+						<label for="endCliente">Endereço:</label>
+						<input type="text" class="form-control" id="endereco" name="endereco"
+						placeholder="Digite seu Endereço:">
+					</div>
+					<div class="form-group">
+						<label for="telCliente">Telefone:</label>
+						<input type="text" class="form-control" id="telefone" name="telefone"
+						placeholder="Digite seu Telefone:">
+					</div>					
+					<div class="form-group">
+						<label for="cpfCliente">CPF:</label>
+						<input type="text" class="form-control" id="cpf" name="cpf"
+						placeholder="Digite seu CPF:">
+					</div>
+					
+					
+					<button class="btn btn-primary btn-block">Cadastrar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script src="bibliotecas/jquery/jquery.min.js"></script>
+	<script src="bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+</body>
+</html>

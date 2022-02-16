@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport"
+	content="width=device-width, initial-scale = 1, shrink-to-fit=no">
+<title>Login Usuario</title>
+<link rel="stylesheet" type="text/css"
+	href="bibliotecas/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+	href="bibliotecas/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/sb-admin.min.css">
+</head>
+<body class="bg-dark">
+
+	<div class="container">
+		<div class="card card-login mx-auto mt-5">
+			<div class="card-header">Login do Usuario</div>
+			<div class="card-body">
+				<form method="POST" action="validaUsuario.jsp">
+					<div class="form-group">
+						<label for="email">E-mail</label> <input type="email"
+							class="form-control" name="email" id="email"
+							placeholder="Digite seu Email">
+					</div>
+					<div class="form-group">
+						<label for="senha">Senha</label> <input type="password"
+							class="form-control" name="senha" id="senha"
+							placeholder="Digite sua Senha">
+					</div>
+
+					<div class="form-group">
+						<button class="btn btn-primary btn-block">Entrar no
+							Sistema</button>
+					</div>
+					
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="bibliotecas/jquery/jquery.min.js"></script>
+	<script src="bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+</body>
+</html>
